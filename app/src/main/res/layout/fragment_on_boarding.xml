@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".UI.OnBoarding.OnBoardingFragment">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_onboard_app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:text="@string/hashtag"
+        android:textColor="@color/light_gray"
+        android:textSize="@dimen/_15ssp"
+        app:fontFamily="@font/poppins_regular"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_onboard"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/_10sdp"
+        app:layout_constraintBottom_toTopOf="@id/tv_onboard_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_onboard_app_name"
+        app:lottie_autoPlay="true"
+        app:lottie_repeatMode="restart"
+        app:lottie_url="https://assets5.lottiefiles.com/packages/lf20_QpolL2.json" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_onboard_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:paddingHorizontal="@dimen/_10sdp"
+        android:text="@string/onboard_text"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_18ssp"
+        app:fontFamily="@font/poppins_semi_bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.75" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_onboard_text_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:paddingHorizontal="@dimen/_10sdp"
+        android:text="@string/picturify_your_chat"
+        android:textColor="@color/light_gray"
+        android:textSize="@dimen/_15ssp"
+        app:fontFamily="@font/poppins_medium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_onboard_text" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_lets_go"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:fontFamily="@font/poppins_regular"
+        android:gravity="center"
+        android:padding="@dimen/_10sdp"
+        android:text="@string/let_s_go"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="@dimen/_15ssp"
+        app:backgroundTint="@color/light_pink"
+        app:cornerRadius="@dimen/_25sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="@color/semi_transparent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

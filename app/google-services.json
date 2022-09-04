@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "852380399610",
+    "project_id": "talky-4d0d9",
+    "storage_bucket": "talky-4d0d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:852380399610:android:25505fdc030ff9136ed643",
+        "android_client_info": {
+          "package_name": "com.smitcoderx.talky"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "852380399610-leqv0hi1al5vnccfr0dqj3627vj1f4jp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.smitcoderx.talky",
+            "certificate_hash": "ddd9819c8cbe38a780ce0fbd12c60acccd9cb666"
+          }
+        },
+        {
+          "client_id": "852380399610-lti0db25575kk8r0f90mgjcmkr15pt0p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgVqD3XWPRlWuZoMHN2J6ZPBqp48Qsrqw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "852380399610-lti0db25575kk8r0f90mgjcmkr15pt0p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

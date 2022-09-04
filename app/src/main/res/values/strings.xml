@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Talky</string>
+    <string name="onboard_text">Chat with \nyour loved one \nEasily with Pictures</string>
+    <string name="hashtag">#Talky</string>
+    <string name="picturify_your_chat">Picturify your Chat</string>
+    <string name="let_s_go">Let\'s Go...</string>
+    <string name="login">Login</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="or_sign_in_with_google">Or Sign in with Google</string>
+    <string name="google_signin">Google Sign In</string>
+</resources>
